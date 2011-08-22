@@ -142,7 +142,7 @@ Armstrong relies on that need to be installed from GitHub.
 
 After you've configured the database engine and installed the base
 requirements, you're last step is to create the database (you can skip this
-step if you used ``--demo``).  You run ``armstrong syncdb`` which initial the
+step if you used ``--demo``).  You run ``armstrong syncdb`` which initializes the
 database based on the apps listed in your ``INSTALLED_APPS`` setting.  After
 this runs, you will have a database created by Django (for more information on
 ``syncdb``, see the `Django docs`_).
@@ -183,7 +183,7 @@ Changelog
         calling out specifically.
 
         *Integration with VisualSearch*
-            Wells now have a much better UI thanks `VisualSearch`_.  This new
+            Wells now have a much better UI thanks to `VisualSearch`_.  This new
             UI allows you to quickly search through all of your models when
             attaching a new ``Node`` to a ``Well``.
 
